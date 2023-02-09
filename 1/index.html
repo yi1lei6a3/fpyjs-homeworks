@@ -8,28 +8,6 @@
 </head>
 <body>
     <p>Loading, please wait...</p>
-    <script>
-        document.write('Hello, world!');
-        console.log('Hello, developers!');
-
-        function guess() {
-        let n = Math.floor(Math.random() * 1000);
-        console.log(n);
-        while (true){
-            let n = promt("Введите число от 0 до 1000");
-            if (isNaN(n)) {
-                alert("Вы введи не число!");
-                break;
-            }else if (n<x) {
-                alert("Мало!");
-            }else if (n>x) {
-                alert("Много!");
-            }else {
-                alert("Угадал!");
-                break;
-            }
-        }
-    }
-    </script>
+    <script src="index.js"></script>
 </body>
 </html>
